@@ -2,5 +2,5 @@ const express = require('express');
 const router = express.Router();
 const quizController=require('../controllers/quiz.controller'); 
 
-router.get('/',quizController.test_google_sheet)
+router.get('/',quizController.get_all_quizes)
 module.exports = router;
